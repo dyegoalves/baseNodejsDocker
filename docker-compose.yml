@@ -1,10 +1,10 @@
 version: "3"
 
-services: 
-  app: 
+services:
+  app:
     build: .
-    command: npm start 
-    ports: 
+    command: npm run dev
+    ports:
       - "3000:3000"
-    volumes: 
-      - .:/usr/app 
+    volumes:
+      - .:/usr/app
