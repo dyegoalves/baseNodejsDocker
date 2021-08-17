@@ -1,0 +1,12 @@
+{
+  "name": "nodedocker",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -L index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
