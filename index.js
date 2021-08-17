@@ -6,6 +6,5 @@ app.get("/", (req, res) => {
   res.send("Hello World !");
 });
 
-app.listen(port, () => {
-  console.log(`App ON in URL ->  http://localhost:${port}`);
-});
+// start the server listening for requests
+app.listen(process.env.PORT || 3000, () => console.log("Server is running..."));
